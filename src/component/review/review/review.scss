@@ -1,0 +1,120 @@
+@import "../../../static/scss/veriable.scss";
+.newreview {
+  .company-name {
+    .input-befor {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .input-icon {
+      object-fit: contain;
+      margin-right: 1.8%;
+      height: 24px;
+      width: 24px;
+    }
+    .company-name:hover {
+      border-bottom: 1px solid $azure;
+    }
+    .company-name:focus {
+      border-bottom: 1px solid $azure;
+    }
+    input {
+      padding: 20px !important;
+      border-bottom: none !important;
+    }
+  }
+
+  .company-name {
+    border-bottom: 1px solid $black-4;
+  }
+
+  .ant-input-group-addon {
+    border: none !important;
+  }
+  .input-before-text {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: $roboto;
+  }
+
+  .experiance-title {
+    margin-top: 4.4% !important;
+    font-size: 20px;
+    color: $black-1;
+    margin-bottom: 1.8%;
+    font-family: $roboto;
+  }
+
+  .experiance-sub-title {
+    margin-top: 4.4%;
+    font-size: 24px;
+    margin-bottom: 2.2%;
+    color: $black-1;
+
+    font-family: $roboto;
+  }
+  .name-of-the-product {
+    height: 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: $black-2;
+    font-family: $roboto;
+    font-weight: 500;
+  }
+  .review-section {
+    background-color: $pale-grey-two;
+    padding: 6.5% 0% 5.4% 3.4%;
+  }
+
+  .name-of-the-product-input input {
+    width: 420px !important;
+    margin-top: 2.2%;
+  }
+  .question-of {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1.6%;
+    margin-top: 71px;
+    font-family: $roboto;
+  }
+  .please-write-your-re {
+    font-size: 18px;
+    font-weight: normal;
+    color: $medium-gray;
+    margin-bottom: 2.2%;
+    font-family: $roboto;
+  }
+
+  .review-button {
+    margin-top: 5.4%;
+  }
+  .review-text-area {
+    width: 750px;
+  }
+
+  .company-name {
+    margin-top: 3.9%;
+  }
+
+  .rate-value-block svg {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .image-of-product {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    margin-bottom: 5.6%;
+  }
+}
+
+.newreview {
+  padding-bottom: 6.4%;
+}

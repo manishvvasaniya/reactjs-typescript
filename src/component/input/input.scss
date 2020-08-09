@@ -1,0 +1,36 @@
+@import "../../static/scss/veriable.scss";
+input {
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid $black-4 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  padding: 1.8%;
+  font-family: $montserrat !important;
+}
+
+input::placeholder {
+  font-family: $montserrat !important;
+}
+
+input:hover {
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid $azure !important;
+  box-shadow: none !important;
+}
+
+input:focus {
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid $azure !important;
+  box-shadow: none !important;
+}
+
+.ant-input-group-addon {
+  background-color: $white !important;
+  box-shadow: none;
+  border: none !important;
+  border-bottom: 1px solid $black-4 !important;
+}

@@ -1,0 +1,75 @@
+@import "../../static/scss/veriable.scss";
+textarea {
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid $black-4 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  font-family: $montserrat !important;
+}
+
+textarea:hover {
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid $azure !important;
+  box-shadow: none !important;
+}
+
+.text-area-info {
+  display: flex;
+  align-items: center;
+}
+
+textarea:focus {
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid $azure !important;
+  box-shadow: none !important;
+}
+
+.-characters-remain {
+  margin-top: -10px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  font-family: $montserrat;
+  line-height: 1.67;
+  letter-spacing: 0.2px;
+  color: $medium-gray;
+
+  margin-right: 1.5%;
+}
+
+.text-area-info {
+  margin-top: 1.6% !important;
+}
+
+.text-area-info svg {
+  height: 16px;
+  width: 16px;
+}
+
+.ant-tooltip-open {
+  font-size: 12px;
+  width: 200px;
+  height: 57px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.ant-tooltip-inner {
+  background-color: #fef3d0 !important;
+  color: $black-1 !important;
+}
+.ant-tooltip-placement-top .ant-tooltip-arrow::before,
+.ant-tooltip-placement-topLeft .ant-tooltip-arrow::before,
+.ant-tooltip-placement-topRight .ant-tooltip-arrow::before {
+  background-color: #fef3d0 !important;
+}

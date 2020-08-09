@@ -1,0 +1,34 @@
+@import "../../static/scss/veriable.scss";
+.header {
+  height: 72px;
+  width: 100%;
+  box-shadow: 0 2px 8px 0 #0000001a;
+  background-color: $ice-blue;
+  display: flex;
+  justify-content: center;
+}
+.header-content {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 72px;
+  width: 100px;
+}
+
+.header-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bell {
+  width: 19.2px;
+  height: 16.4px;
+}
+
+.bell-icon {
+  margin-right: 20px;
+}

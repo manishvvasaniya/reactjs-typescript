@@ -1,0 +1,36 @@
+@import "../../static/scss/veriable.scss";
+
+// svg:hover path {
+//   fill: red;
+// }
+.select-box {
+  .ant-col {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid $black-4;
+    border-top: 1px solid $black-4;
+    border-right: 1px solid $black-4;
+    height: 60px;
+    padding: 2.8%;
+    font-family: $montserrat;
+  }
+
+  .ant-col:hover {
+    border: none;
+    border: 1px solid $azure !important;
+    color: $azure;
+    font-weight: 500;
+  }
+
+  .select-box-active {
+    border: none;
+    border: 1px solid $azure !important;
+    color: $azure;
+    font-weight: 500;
+  }
+  .ant-col:first-child {
+    border-left: 1px solid $black-4;
+  }
+}
